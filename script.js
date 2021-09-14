@@ -9,7 +9,9 @@ incBtnEl.onclick = function() {
 }
 decBtnEl.onclick = function() {
     let counterVal = parseInt(counterEl.textContent)
-    counterEl.textContent = counterVal - 1
+    if (counterVal > 0) {
+        counterEl.textContent = counterVal - 1
+    } 
 }
 resetBtnEl.onclick = function() {
     counterEl.textContent = 0
