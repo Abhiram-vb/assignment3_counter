@@ -5,20 +5,61 @@
     /* color: white; */
 }
 
+#counters {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.but {
+    border-width: 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .mainDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-        background-image: linear-gradient(to bottom, #FFADAD, #F3D5C0);
-
+    background-image: linear-gradient(to bottom, #FFADAD, #F3D5C0);
+    /* background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--FUFoeQpW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/p5wilmn62vczuw4z7kjy.png'); */
     background-size: cover;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 10px 5px 5px #FFADAD;
+    border-radius: 25px;
+    height: 70vh;
+    width: 90vw;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
 button {
     margin: 10px;
 }
 
 #para {
     color: red;
+}
+
+@media (max-width:767px) {
+
+    .but {
+        border-width: 0;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
 }
