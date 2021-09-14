@@ -14,7 +14,10 @@
     background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--FUFoeQpW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/p5wilmn62vczuw4z7kjy.png');
     background-size: cover;
 }
-
 button {
     margin: 10px;
+}
+
+#para {
+    color: red;
 }
